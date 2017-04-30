@@ -1,0 +1,34 @@
+*{
+  padding:0;
+  margin: 0;
+}
+html,body{
+  height: 100%;
+}
+input{
+  outline: none;
+  border: none;
+}
+a{
+  text-decoration: none;
+}
+@mixin bz ($val:cover){
+  background-size: $val;
+  -moz-background-size:$val;
+  -webkit-backgroun-size:$val;
+  -o-background-size:$val;
+  -ms-background-size:$val;
+}
+@mixin border($val:10px){
+  border-radius: $val;
+  -moz-border-radius:$val;
+  -webkit-border-radius:$val;
+  -o-border-radius:$val;
+  -ms-border-radius:$val;
+}
+select{
+    outline: none;
+}
+textarea{
+  outline: none;
+}

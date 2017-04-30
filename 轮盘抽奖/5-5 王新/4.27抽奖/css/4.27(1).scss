@@ -1,0 +1,64 @@
+@import "../../public/public";
+body{
+  background: #fe620d;
+  font-size: 62.5%;
+}
+.baner{
+  height: auto;
+  width:50%;
+  margin: 0 auto;
+}
+.mid{
+  height: auto;
+  width: 50%;
+  margin: -3px auto;
+  position: relative;
+}
+.bottom{
+  height: auto;
+  width: 35%;
+  font-size: 20px;
+  padding: 2%;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.2);
+  color:#fff;
+  margin: 100px auto;
+}
+.left{
+  height: auto;
+  width:35%;
+  position: absolute;
+  left: 10%;
+  top:10%;
+  cursor: pointer;
+}
+.right{
+  height: auto;
+  width:35%;
+  position: absolute;
+  right: 10%;
+  top:10%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 970px){
+  .baner{
+    width:100%;
+    margin: 0 auto;
+  }
+  .mid{
+    width: 100%;
+    margin: -3px auto;
+  }
+  .bottom{
+    width: 85%;
+    font-size: 1rem;
+    margin: 50px auto;
+  }
+  .left{
+    width:35%;
+  }
+  .right{
+    width:35%;
+  }
+}
